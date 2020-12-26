@@ -1,13 +1,21 @@
 # flask-todo-app
-この記事は書きかけです。
+【目的】  
+pythonで「DB接続＋WEBでの操作＋Herokuにデプロイ」できるものを作る。→Flaskを使ったtodo appを作る。
+
+【結果】
+出来た。出来たものは↓です。  
+https://deploytestruda830.herokuapp.com/  
+
 　  
-　  
-　  
-　  
-　  
-　  
-　  
-　  
+   
+
+参考にさせて頂いたサイト  
+https://tech-diary.net/flask-introduction/
+
+
+
+
+---------------------------------------------------------------------------------------
 メモ  
 (2020/12/25)  
 FlaskでHTMLにHello world表示するアプリを作る。  
@@ -26,4 +34,3 @@ createボタンを追加。
 
 とりあえず完成。装飾は後回し。
 Herokuにtodo-app-ruda830としてデプロイ。  
-https://deploytestruda830.herokuapp.com/  
