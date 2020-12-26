@@ -20,7 +20,7 @@ class Post(db.Model):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
-        posts = Post.query.all()
+        posts = Post.query.order_by(Post.due).all()
         return render_template('index.html', posts=posts)
     else:
         title = request.form.get('title')
