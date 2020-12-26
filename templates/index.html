@@ -1,5 +1,12 @@
 {% extends 'base.html' %}
 
 {% block body %}
-<h1>extended!!!!</h1>
+<h1>Top page</h1>
+
+{% for post in posts %}
+<h2>タイトル :{{ post.title }}</h2>
+<p>期限 :{{post.due.date() }}</p>
+<a href="/detail/{{ post.id }}" role="button">Detail</a>
+<a href="/delete/{{ post.id }}" role="button">Delete</a>
+{% endfor %}
 {% endblock %}
