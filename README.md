@@ -19,5 +19,9 @@ POSTをまず作り、methodsでapp.pyと連携。フォームにタスクを書
 なんかできない。テーブルがないと言われた。→pythonの対話型シェルで>>> from app import db>>> db.create_all()を再度打ち込み、作製。  
 →その上でapp.pyを実行すると出来た。POSTとGETをHTML上でも実装出来た。    
 detailまで実装。  
-同じ要領でdeleteまで実装。
-if elseでupdateまで実装。
+同じ要領でdeleteまで実装。  
+if elseでupdateまで実装。  
+createボタンを追加。
+日付を順に並べる。
+
+とりあえず完成。装飾は後回し。
