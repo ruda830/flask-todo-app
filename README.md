@@ -25,3 +25,5 @@ createボタンを追加。
 日付を順に並べる。
 
 とりあえず完成。装飾は後回し。
+Herokuにtodo-app-ruda830としてデプロイ。  
+https://deploytestruda830.herokuapp.com/  
