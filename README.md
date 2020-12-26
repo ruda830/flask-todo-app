@@ -2,13 +2,13 @@
 【目的】  
 pythonで「DB接続＋WEBでの操作＋Herokuにデプロイ」できるものを作る。→Flaskを使ったtodo appを作る。
 
-【結果】
+【結果】  
 出来た。出来たものは↓です。  
-https://deploytestruda830.herokuapp.com/  
+https://todo-app-ruda830.herokuapp.com/  
 
 　  
    
-
+---------------------------------------------------------------------------------------
 参考にさせて頂いたサイト  
 https://tech-diary.net/flask-introduction/
 
