@@ -9,8 +9,7 @@ https://todo-app-ruda830.herokuapp.com/
 　  
    
 ---------------------------------------------------------------------------------------
-参考にさせて頂いたサイト  
-https://tech-diary.net/flask-introduction/
+
 
 
 
